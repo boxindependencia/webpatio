@@ -1,0 +1,97 @@
+body {
+    padding-top: 0px;
+    background-color: rgb(245, 243, 243);
+    margin-bottom: 10px;
+}
+
+
+header {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+    height: 150px;
+}
+
+header img {
+    width: 350px;
+    height: 140px;
+    border-radius: 2px;
+}
+
+
+
+.main-description h5 {
+    margin-top: 10px;
+    border: 2px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    color: #000;
+
+
+}
+
+/*
+.main-description {
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+    margin-top: auto;
+    font-size: 15px;
+}*/
+
+
+
+
+.row {
+    margin-top: 0px;
+
+}
+
+
+.card {
+
+
+    padding: 0px 0px;
+    border: #000 1px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.card-title {
+    margin-top: 2px;
+
+    color: #287952;
+    text-align: center;
+    font-size: 15px;
+    /* Estilos específicos para el título dentro de las tarjetas en el div "tarjetas" */
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid;
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5PX;
+    background-color: darkgray;
+}
+
+
+.card img {
+    width: calc(100% - 2px);
+    max-width: 500px;
+    height: 100px;
+    justify-content: center;
+    margin: 1px;
+    text-align: center;
+    border-top-left-radius: 15px;
+}

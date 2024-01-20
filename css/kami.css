@@ -1,0 +1,160 @@
+body {
+    padding-top: 0px;
+    background-color: rgb(245, 243, 243);
+    margin-bottom: 10px;
+}
+
+.custom-card-img {
+    width: 30%;
+    margin-right: 15px;
+    margin-top: 0px;
+
+}
+
+.card {
+    background: #fff;
+    border-radius: 20px;
+    width: auto;
+    height: 500px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    margin-top: 0px;
+    font-size: 1.0rem;
+    margin-top: 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-top: 0;
+
+
+}
+
+.card-precio {
+
+    width: 80px;
+    border-radius: 6px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    color: #287952;
+    font-weight: 900;
+
+}
+
+
+.container {
+    width: 100%;
+    margin: 10px;
+    color: aqua;
+}
+
+.container-title {
+    color: #121212;
+}
+
+#header1 {
+    display: flex;
+    background-color: #080808;
+
+    /* Centrado horizontal */
+
+    /* Centrado vertical */
+    height: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+    height: 150px;
+}
+
+header img {
+
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+
+button {
+    color: #121212;
+    margin: 0;
+    /* Elimina el margen por defecto del botón */
+    padding: 5px 10px;
+    /* Ajusta el relleno según tus necesidades */
+    background-color: #fff;
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 5px;
+    /* Elimina cualquier redondeo en los bordes */
+    display: block;
+    /* Hace que el botón sea un bloque para centrar horizontalmente */
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    /* Centra horizontalmente */
+    transition: background-color 0.3s;
+}
+
+
+
+nav {
+
+    display: flex;
+    overflow-x: auto;
+    /* Hace que el menú sea deslizable horizontalmente */
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+nav a.btn {
+    color: #287952;
+    text-decoration: none;
+    padding: 8px 12px;
+    /* Ajusta el relleno horizontal y vertical según sea necesario */
+
+    border-radius: 10px;
+    margin: 0 5px;
+    margin-right: 6px;
+    background-color: #fff;
+    transition: background-color 0.8s;
+    width: auto;
+    margin-bottom: 15px;
+
+}
+
+nav a.btn:hover {
+    background-color: #bfe0cf;
+    /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 2px;
+    left: 40px;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* Esto distribuirá los elementos a lo largo del ancho del contenedor */
+    height: 50px;
+}
+
+.footer img {
+    margin-right: 80px;
+    /* Puedes ajustar el valor según sea necesario para separar las imágenes */
+}
